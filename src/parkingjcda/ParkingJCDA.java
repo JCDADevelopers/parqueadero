@@ -23,6 +23,8 @@ public class ParkingJCDA {
         vista.setVisible(true);
         
         Controlador controlador = new Controlador(modelo,vista);
+        //dfgddfghjgfgh
+        //hhbnghjgfgh
         
     }
     
