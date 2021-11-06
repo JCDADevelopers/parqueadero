@@ -91,6 +91,11 @@ public class VistaHome extends javax.swing.JFrame {
         jLabel7.setText("Celular:");
 
         cajaPlaca.setFont(new java.awt.Font("Yu Gothic UI", 0, 12)); // NOI18N
+        cajaPlaca.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                cajaPlacaActionPerformed(evt);
+            }
+        });
 
         cajaCedula.setFont(new java.awt.Font("Yu Gothic UI", 0, 12)); // NOI18N
 
@@ -258,6 +263,10 @@ public class VistaHome extends javax.swing.JFrame {
         // TODO add your handling code here:
     }//GEN-LAST:event_botonVehiculosActionPerformed
 
+    private void cajaPlacaActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_cajaPlacaActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_cajaPlacaActionPerformed
+
     /**
      * @param args the command line arguments
      */
@@ -297,11 +306,11 @@ public class VistaHome extends javax.swing.JFrame {
     public javax.swing.JButton botonEditar;
     public javax.swing.JButton botonRegistrar;
     public javax.swing.JButton botonVehiculos;
-    private javax.swing.JTextField cajaCedula;
-    private javax.swing.JTextField cajaCelular;
-    private javax.swing.JTextField cajaFijo;
-    private javax.swing.JTextField cajaNombre;
-    private javax.swing.JTextField cajaPlaca;
+    public javax.swing.JTextField cajaCedula;
+    public javax.swing.JTextField cajaCelular;
+    public javax.swing.JTextField cajaFijo;
+    public javax.swing.JTextField cajaNombre;
+    public javax.swing.JTextField cajaPlaca;
     private javax.swing.JLabel jLabel1;
     private javax.swing.JLabel jLabel2;
     private javax.swing.JLabel jLabel3;
